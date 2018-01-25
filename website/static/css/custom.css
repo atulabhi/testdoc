@@ -1,0 +1,96 @@
+/*Root*/
+body {
+    background: #fff;
+}
+
+/* NAV bar */
+.fixedHeaderContainer header img {
+    width: 160px;
+    height: auto;
+}
+
+.fixedHeaderContainer header h2 {
+    color: #fff;
+}
+
+.fixedHeaderContainer {
+    background: #fff;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.25);
+    transition: background-color 0.3s ease-in-out;
+}
+
+.headerTitle {
+    color: #f3f3f3;
+    font-weight: 200;
+}
+
+.navigationSlider .slidingNav ul li a {
+    color: rgba(78, 78, 78, 0.8);
+}
+
+.navigationSlider .slidingNav ul li a:focus,
+.navigationSlider .slidingNav ul li a:hover {
+    background: #fff;
+    text-decoration-style: double;
+    color
+}
+
+.navigationSlider .slidingNav ul li a:hover {
+    color: darkseagreen;
+}
+
+nav {
+    position: fixed;
+}
+
+/* Side bar*/
+nav.toc .toggleNav {
+    background: #fff;
+    padding: 3%;
+}
+
+nav.toc .toggleNav .navGroup.navGroupActive h3 {
+    background: #DEE2E6;
+}
+
+nav.toc .toggleNav .navGroup.navGroupActive {
+    background: #fff;
+}
+
+/*Doc body*/
+.mainContainer {
+    background: #fff;
+}
+
+
+/*Layouts*/
+.row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.col-md-3 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 25%;
+}
+
+.mb-2,
+.my-2 {
+    margin-bottom: 0.5rem !important;
+}
+
+@media (max-width: 576px) {
+
+    .fixedHeaderContainer header img {
+        width: 141px;
+        height: auto;
+    }
+
+}

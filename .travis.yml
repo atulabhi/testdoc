@@ -1,0 +1,23 @@
+filter_secrets: false
+language: node_js
+node_js: stable
+env:
+  global:
+   - COMMIT=${TRAVIS_COMMIT::6}
+
+sudo: required
+services:
+- docker
+before_script:
+#- sudo apt-get install python-software-properties
+#- curl -sL https://deb.nodesource.com/setup_9.x | sudo -E bash -
+#- sudo apt-get install python-software-properties
+- cd maya-docs/website
+- npm install docusaurus
+script:
+-npm run build
+after_success:
+- if [ "$TRAVIS_BRANCH" = "master" -a "$TRAVIS_PULL_REQUEST" = "false" ]; then export REPO=avneetsingh/travis;
+   docker login -u "$DOCKER_USER" -p "$DOCKER_PASS" && docker build -t $REPO:$COMMIT . && docker push $REPO; 
+  fi
+
