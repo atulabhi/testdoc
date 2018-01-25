@@ -13,7 +13,7 @@ before_script:
 #- curl -sL https://deb.nodesource.com/setup_9.x | sudo -E bash -
 #- sudo apt-get install python-software-properties
 script:
-  - cd maya-docs/website
+  - cd website
   - npm install docusaurus
   - npm run build
 after_success:
