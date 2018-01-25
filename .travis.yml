@@ -16,6 +16,7 @@ script:
   - cd website
   - npm install docusaurus
   - npm run build
+  - cd ..
 after_success:
   - if [ "$TRAVIS_BRANCH" = "master" -a "$TRAVIS_PULL_REQUEST" = "false" ]; then export REPO=avneetsingh/travis;
      docker login -u "$DOCKER_USER" -p "$DOCKER_PASS" && docker build -t $REPO:$COMMIT . && docker push $REPO; 
