@@ -3,7 +3,7 @@ id: api6
 title: Examples
 sidebar_label: Examples
 ---
-# Examples
+
 
 This chapter contains the following sections:
 
@@ -51,8 +51,6 @@ This following sections are a collection of examples-recipes, if you will-for us
 * You can study the examples to figure out “how things are done” in REST API and generalize to using different methods for other tasks you need to script.
 
 The examples are chosen to illustrate common use cases and are intended to facilitate all three of these modes of use.
-
-# 
 
 
 

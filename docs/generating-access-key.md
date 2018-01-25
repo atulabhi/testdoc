@@ -4,7 +4,6 @@ title: Generating an API Access Key
 sidebar_label: Generating an API Access Key
 ---
 
-## Generating an API Access Key
 
 You can use the following example to access MayaOnline API in third party applications. The publicValue and secretValue must be added in a header in the following format where encdata contains base64 of public and private key.
 

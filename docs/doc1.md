@@ -1,7 +1,7 @@
 ---
 id: doc1
-title: Latin-ish
-sidebar_label: Example Page
+title: MayaOnline Doc
+sidebar_label: MayaOnline Introduction
 ---
 
 Check the [documentation](https://docusaurus.io) for how to use Docusaurus.

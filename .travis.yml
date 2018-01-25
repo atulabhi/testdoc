@@ -9,9 +9,9 @@ services:
 - docker
 before_script:
   - npm install
-#- sudo apt-get install python-software-properties
-#- curl -sL https://deb.nodesource.com/setup_9.x | sudo -E bash -
-#- sudo apt-get install python-software-properties
+  #- sudo apt-get install python-software-properties
+  #- curl -sL https://deb.nodesource.com/setup_9.x | sudo -E bash -
+  #- sudo apt-get install python-software-properties
 script:
   - cd website
   - npm install docusaurus

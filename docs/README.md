@@ -1,10 +1,9 @@
-
 ---
 id: api1
 title: Introduction
 sidebar_label: Introduction
 ---
-# Introduction
+
 
 This document helps you understand why you must use REST APIs, it's working, methods, and  examples.
 
@@ -59,7 +58,6 @@ The following HTTP status codes are returned by MayaOnline:
 
 ### **Example API URL:**
 
-## 
 
 
 

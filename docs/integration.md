@@ -3,9 +3,8 @@ id: gs4
 title: Integrations
 sidebar_label: Integrations
 ---
-# Integrations
 
-From the MayaOnline main page, go to **Organizations  **and select **Integrations **on the left pane. The screen displays a list of applications that you have integrated under _Monitoring Integrations_ and an option to add to slack under _ChatOps Integrations_.
+From the MayaOnline main page, go to **Organizations** and select **Integrations** on the left pane. The screen displays a list of applications that you have integrated under _Monitoring Integrations_ and an option to add to slack under _ChatOps Integrations_.
 
 ## Monitoring Integration
 
@@ -31,9 +30,9 @@ Mulebot application covers the storage operational support of Kubernetes cluster
 Mulebot also keeps you informed about the current status of clusters that you have imported in MayaOnline by sending alerts as required. Once you integrate Slack, you will receive alerts related to the clusters imported in MayaOnline to the specified Slack channel. Following are the various types of alerts that you will receive.
 
 * Cluster Up 
-* Cluster Down  
-* Volume Up  
-* Volume Down  
+* Cluster Down
+* Volume Up
+* Volume Down
 * Volume Write Latency  ??
 * Volume Read Latency  ??
 * High CPU Usage
@@ -47,7 +46,7 @@ You must have a Slack workspace.
 
 **To add to Slack, use the following procedure.**
 
-1. Go to **Organizations **&gt; **Integrations **from the MayaOnline page.
+1. Go to **Organizations** &gt; **Integrations** from the MayaOnline page.
 2. Click **Add to Slack**.
 3. Select the workspace from the drop-down list.
 4. Select a channel from the **Post to** drop-down list.

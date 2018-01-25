@@ -19,11 +19,11 @@ const siteConfig = {
             label: 'Docs'
         },
         {
-            doc: 'doc4',
+            doc: 'api1',
             label: 'API'
         },
         {
-            blog: true,
+            blog: false,
             label: 'Blog'
         },
         {

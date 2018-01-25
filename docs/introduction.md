@@ -3,7 +3,6 @@ id: gs1
 title: Overview
 sidebar_label: Introduction
 ---
-# Overview
 
 MayaOnline.io is a first solution of its type  and is free for basic usage. It leverages the cross-cloud capabilities of Kubernetes and containers themselves and extends them to the data-plane with the help of the fully containerized OpenEBS. This solution is called a “Cross-cloud data-plane”. DevOps can self manage the storage with the help of MayaOnline and also get visibility into Kubernetes with ChatOps and cross-cloud control.
 
@@ -25,7 +24,7 @@ MayaOnline analytics are based on the CNCF project Prometheus. Prometheus is not
 
 The data is monitored and intuitive graphs are delivered using Grafana. For more information, see [Monitoring for OpenEBS Volumes.](/monitoring-for-openebs-volumes.md)
 
-## Mulebot** and other controls**
+## **Mulebot and other controls**
 
 In addition to the graphical interface enabling analytics and the creation and management of automations, Mulebot is used to communicate with users. MayaOnline can post status to Slack channels and you can initiate actions from these channels that MayaOnline executes. Mulebot also enables developers and administrators to respond to data related alerts and also query the data plane from Slack itself.
 

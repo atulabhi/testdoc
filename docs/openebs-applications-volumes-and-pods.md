@@ -3,10 +3,10 @@ id: gs7
 title: OpenEBS Applications, Volumes, and Pods
 sidebar_label: OpenEBS Applications, Volumes, and Pods
 ---
-# OpenEBS Applications
+## OpenEBS Applications
 
 
-On the **Clusters **page, you will see the clusters that you have added. The status is **Inactive **for these clusters. Once you import the cluster \([adding and importing clusters](/adding and importing clusters)\), the cluster status becomes **Active**.  Click **Applications **to see the applications running on that cluster.
+On the **Clusters** page, you will see the clusters that you have added. The status is **Inactive** for these clusters. Once you import the cluster \([adding and importing clusters](/adding and importing clusters)\), the cluster status becomes **Active**.  Click **Applications** to see the applications running on that cluster.
 
 ![](/assets/applications.png)
 
@@ -14,7 +14,7 @@ Click **Kubernetes Dashboard** to view the cluster details.
 
 ![](/assets/kubernetes_dashboard.png)
 
-# Volumes
+## OpenEBS Volumes
 
 **&lt;&lt;TBD&gt;&gt;**
 
@@ -22,7 +22,7 @@ details of the volumes in an application. status of the volume monitored by Open
 
 Volume details such as Name, Status, and Capacity of the volume. It also displays the status of the Controller and the replicas. For more information about monitoring volumes, see
 
-# Pods
+## OpenEBS Pods
 
 **&lt;&lt;TBD&gt;&gt; ?????**
 
